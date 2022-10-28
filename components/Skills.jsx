@@ -2,10 +2,10 @@ import {motion} from "framer-motion"
 import { Swiper, SwiperSlide } from "swiper/react";
 import Skill from './Skill'
 import "swiper/css";
-import pandas from "../src/images/pandas.svg"
-import jenkins from "../src/images/jenkins.svg"
-import rust from "../src/images/rust.svg"
-import nexjs from "../src/images/nextjs-icon.svg"
+import pandas from "src/images/pandas.svg"
+import jenkins from "src/images/jenkins.svg"
+import rust from "src/images/rust.svg"
+import nexjs from "src/images/nextjs-icon.svg"
 
 function Skills() {
   return (
