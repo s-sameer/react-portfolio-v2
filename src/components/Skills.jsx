@@ -9,7 +9,7 @@ import nexjs from "../images/nextjs-icon.svg"
 
 function Skills() {
   return (
-    <motion.div className="min-h-screen flex flex-col relative text-center md:text-left
+    <motion.div className="h-screen flex flex-col relative text-center md:text-left
     xl:flex-row max-w-[2000px] xl:px-10 justify-center items-center xl:space-y-0 mx-auto">
       <h3 className="absolute top-24 pl-2 uppercase tracking-[20px]">Skills</h3>
       <h2 className="absolute top-36">Swipe/Drag images to the left to see more &rarr; </h2>

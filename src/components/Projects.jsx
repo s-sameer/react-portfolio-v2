@@ -10,7 +10,7 @@ import data from "./Data"
 const Projects = () => {
 
   return (
-    <div className='h-screen flex flex-col justify-evenly items-center relative overflow-y-hidden z-0'>
+    <div className='h-screen flex flex-col justify-evenly items-center relative overflow-y-hidden md:mt-0 mt-32'>
         <h1 className='absolute xl:top-28 top-28 text-center uppercase tracking-[20px]'>Projects</h1>
         <div className="w-full absolute top-[30%] bg-[#afafaf]/10 left-0 h-[400px] -skew-y-12"/>
         <div className='relative w-full flex'>
@@ -27,8 +27,8 @@ const Projects = () => {
                         whileHover={{scale: 1.1}}
                         className="relative group" //Using group class to apply hover effects to th entire group
                         transition={{duration: 0.25, opacity: {duration: 1}, y:{duration: 1}}}>
-                            <img className=" rounded-xl group-hover:opacity-50" src={project.source} height={250} width={500}/>
-                            <div className="absolute hidden group-hover:inline-block inset-0 max-h-[98%] rounded-xl group-hover:transition group-hover:ease-in-300">
+                            <img className=" rounded-xl group-hover:opacity-50" src={project.source} style={{width: 650, }}/>
+                            <div className="absolute inset-0 hidden group-hover:inline-block max-h-[98%] rounded-xl group-hover:transition group-hover:ease-in-300">
                                 <div className="flex items-center justify-center h-full gap-6">
                                     <a href={project.demo_url} target="_blank" rel="noreferrer">
                                         <button className="flex items-center justify-center gap-2 bg-blue-500 rounded-full w-24 h-10 text-white">
@@ -45,7 +45,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </motion.div>
-                        <h4 className="text-[#d1d1d1] text-center font-semibold p-2">
+                        <h4 className="text-[#dadada] max-w-[600px] text-center font-semibold p-2">
                             {project.desc}
                         </h4>
                         <div className="">

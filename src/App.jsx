@@ -14,7 +14,7 @@ const App = () => {
         <Hero/>
       </section>
 
-      <section id='about' className='md:snap-start'>
+      <section id='about' className='md:snap-center'>
         <About/>
       </section>
 

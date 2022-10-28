@@ -7,7 +7,7 @@ import keeper from '../images/keeper.PNG'
 
 const data = [
     {source: lyriks,
-    desc: "",
+    desc: "Created a music streaming and charts application using React, Redux, and Tailwind CSS. Hover over image to see demo or github repo.",
     demo_url: "https://lyriks-phi.vercel.app/",
     git_url: "https://github.com/s-sameer/lyriks"},
     {source: krypto,
