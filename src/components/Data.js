@@ -1,9 +1,9 @@
-import krypto from '../images/krypto_thumbnail.png'
-import lyriks from '../images/lyriks_thumbnail.png'
-import admin_db from '../images/admin-db-v1.png'
-import rpv2 from '../images/react-portfolio-v2.png'
-import rpv1 from '../images/react-portfolio-v1.png'
-import keeper from '../images/keeper.png'
+import krypto from '/src/images/krypto_thumbnail.png'
+import lyriks from '/src/images/lyriks_thumbnail.png'
+import admin_db from '/src/images/admin-db-v1.png'
+import rpv2 from '/src/images/react-portfolio-v2.png'
+import rpv1 from '/src/images/react-portfolio-v1.png'
+import keeper from '/src/images/keeper.png'
 
 const data = [
     {source: lyriks,
