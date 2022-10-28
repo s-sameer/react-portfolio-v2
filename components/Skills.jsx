@@ -24,7 +24,7 @@ function Skills() {
               <Skill directionLeft={true} name="TypeScript" url="https://www.svgrepo.com/show/349540/typescript.svg"/>
               <Skill name="React" url="https://www.svgrepo.com/show/354259/react.svg"/>
               <Skill name="Redux" url="https://www.svgrepo.com/show/354274/redux.svg"/>
-              <Skill name="Next.js" url="https://raw.githubusercontent.com/s-sameer/react-portfolio-v2/0495148fe98332370cd7d52537022fb38d726185/public/nextjs-icon.svg"/> 
+              <Skill name="Next.js" url={nexjs}/> 
               <Skill name="Node.js" url="https://www.svgrepo.com/show/373929/node.svg"/>
               <Skill name="MongoDB" url="https://www.svgrepo.com/show/373845/mongo.svg"/>
               <Skill name="Firebase" url="https://www.svgrepo.com/show/353735/firebase.svg"/>
@@ -37,15 +37,15 @@ function Skills() {
             <Skill name="Python" url="https://www.svgrepo.com/show/354238/python.svg"/>
               <Skill name="Java" url="https://www.svgrepo.com/show/184143/java.svg"/>
               <Skill name="C++" url="https://www.svgrepo.com/show/303480/c-logo.svg"/>
-              <Skill name="Rust" url="https://raw.githubusercontent.com/s-sameer/react-portfolio-v2/9d94ae598f4b8b200a3e79205c3aa152aabcc1ab/public/rust.svg"/>
-              <Skill directionLeft={true} name="Pandas" url="https://raw.githubusercontent.com/s-sameer/react-portfolio-v2/c71e0baa9453975a42f2a690259cae30088c12bd/public/pandas.svg"/> 
+              <Skill name="Rust" url={rust}/>
+              <Skill directionLeft={true} name="Pandas" url={pandas}/> 
               <Skill directionLeft={true} name="Scikit-learn" url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/390px-Scikit_learn_logo_small.svg.png?20180808062052"/> 
               <Skill directionLeft={true} name="Material UI" url="https://www.svgrepo.com/show/354048/material-ui.svg"/> 
               <Skill directionLeft={true} name="Tailwind CSS" url="https://www.svgrepo.com/show/354431/tailwindcss-icon.svg"/> 
               <Skill name="Figma" url="https://www.svgrepo.com/show/354987/figma.svg"/> 
               <Skill name="Git" url="https://www.svgrepo.com/show/353782/git-icon.svg"/> 
               <Skill name="Docker" url="https://www.svgrepo.com/show/373553/docker.svg"/> 
-              <Skill name="Jenkins" url="https://raw.githubusercontent.com/s-sameer/react-portfolio-v2/5ce0e8d7ac676043cb24e84d57cc3619d1609b23/public/jenkins.svg"/> 
+              <Skill name="Jenkins" url={jenkins}/> 
             </div>
           </SwiperSlide>
         </Swiper>
