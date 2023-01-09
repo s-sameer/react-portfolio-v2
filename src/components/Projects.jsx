@@ -20,7 +20,7 @@ const Projects = () => {
               className="mySwiper max-w-[95%] md:max-w-[80%] xl:max-w-[70%]">
                 {data.map((project, i) => 
                     <SwiperSlide key={i} className='w-screen flex-shrink-0 flex flex-col space-y-5 items-center justify-center p-14 md:p-16 h-screen mt-20'>
-                        {/* We cant apply motion obj to Image, so get around this problem I wrapped the image inside a div and applied motion to that instead */}
+                        {/* We cant apply motion obj to Image, so to get around this problem I wrapped the image inside a div and applied motion to that instead */}
                         <motion.div 
                         initial={{opacity: 0, y: -200}}
                         whileInView={{opacity: 1, y:0}}

@@ -15,7 +15,7 @@ function About() {
         I also do <span className="underline">UI/UX design</span> and <span className="underline">Game development</span> on the side. Currently pursuing my
         Bachelor of Computer Engineering degree at Memorial University and 
         teaching myself <span className="underline">Machine learning</span> concepts and algorithms. My mission in life is to create
-        artificially intellegent web applications. Feel free to download my resume to get a detailed overview of my skills and relevant experiences.
+        artificially intelligent web applications. Feel free to download my resume to get a detailed overview of my skills and relevant experiences.
       </motion.h4>
       <motion.div 
         initial={{ opacity: 0, y:150 }}
