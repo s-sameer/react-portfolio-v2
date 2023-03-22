@@ -12,7 +12,7 @@ const data = [
     git_url: "https://github.com/s-sameer/lyriks"},
     {source: krypto,
     desc: "Developed a crypto price and news tracking application using React and Redux. Hover over image to see demo or github repo.",
-    demo_url: "https://krypto-verse.vercel.app/",
+    demo_url: "https://kryptoverse.vercel.app/",
     git_url: "https://github.com/s-sameer/krypto"},
     {source: rpv2,
     desc: "Developed this porfolio site using React and Framer motion. Hover over image to see demo or github repo.",
