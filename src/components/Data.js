@@ -4,6 +4,7 @@ import admin_db from '../images/admin-db-v1.PNG'
 import rpv2 from '../images/react-portfolio-v2.PNG'
 import rpv1 from '../images/react-portfolio-v1.PNG'
 import keeper from '../images/keeper.PNG'
+import ecom from '../images/ecom_thumb.PNG'
 
 const data = [
     {source: lyriks,
@@ -14,6 +15,10 @@ const data = [
     desc: "Developed a crypto price and news tracking application using React and Redux. Hover over image to see demo or github repo.",
     demo_url: "https://kryptoverse.vercel.app/",
     git_url: "https://github.com/s-sameer/krypto"},
+    {source: ecom,
+    desc: "Developed an ecommerce application using React and Sanity.",
+    demo_url: "https://ecom-app-1.vercel.app/",
+    git_url: "https://github.com/s-sameer/ecom-app-1"},
     {source: rpv2,
     desc: "Developed this porfolio site using React and Framer motion. Hover over image to see demo or github repo.",
     demo_url: "https://ssameer.dev",
