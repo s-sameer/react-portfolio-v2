@@ -29,15 +29,15 @@ function Skills() {
               <Skill name="MongoDB" url="https://www.svgrepo.com/show/373845/mongo.svg"/>
               <Skill name="Firebase" url="https://www.svgrepo.com/show/353735/firebase.svg"/>
               <Skill name="PostgreSQL" url="https://www.svgrepo.com/show/373965/pgsql.svg"/> 
-              <Skill name="GraphQL" url="https://www.svgrepo.com/show/353834/graphql.svg"/> 
+              <Skill name="Python" url="https://www.svgrepo.com/show/354238/python.svg"/>
             </div>
           </SwiperSlide>
           <SwiperSlide className="px-32">
             <div className="grid-cols-2 relative px-2 grid md:grid-cols-4 md:top-30 xl:top-10 top-40 gap-8 max-w-fit mx-auto">
-            <Skill name="Python" url="https://www.svgrepo.com/show/354238/python.svg"/>
               <Skill name="Java" url="https://www.svgrepo.com/show/184143/java.svg"/>
               <Skill name="C++" url="https://www.svgrepo.com/show/303480/c-logo.svg"/>
               <Skill name="Rust" url={rust}/>
+              <Skill name="Gitlab" url="https://www.svgrepo.com/show/448226/gitlab.svg"/> 
               <Skill directionLeft={true} name="Pandas" url={pandas}/> 
               <Skill directionLeft={true} name="Scikit-learn" url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/390px-Scikit_learn_logo_small.svg.png?20180808062052"/> 
               <Skill directionLeft={true} name="Material UI" url="https://www.svgrepo.com/show/354048/material-ui.svg"/> 
@@ -45,7 +45,7 @@ function Skills() {
               <Skill name="Figma" url="https://www.svgrepo.com/show/354987/figma.svg"/> 
               <Skill name="Git" url="https://www.svgrepo.com/show/353782/git-icon.svg"/> 
               <Skill name="Docker" url="https://www.svgrepo.com/show/373553/docker.svg"/> 
-              <Skill name="Jenkins" url={jenkins}/> 
+              <Skill name="AWS" url="https://www.svgrepo.com/show/448266/aws.svg"/> 
             </div>
           </SwiperSlide>
         </Swiper>
