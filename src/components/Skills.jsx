@@ -3,10 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Skill from './Skill'
 import "swiper/css";
 import pandas from "../images/pandas.svg"
-import jenkins from "../images/jenkins.svg"
 import rust from "../images/rust.svg"
 import nexjs from "../images/nextjs-icon.svg"
-import aws from "src\images\aws-svgrepo-com.svg"
+import aws from "../images/aws-svgrepo-com.svg"
 
 function Skills() {
   return (
