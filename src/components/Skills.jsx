@@ -6,6 +6,7 @@ import pandas from "../images/pandas.svg"
 import jenkins from "../images/jenkins.svg"
 import rust from "../images/rust.svg"
 import nexjs from "../images/nextjs-icon.svg"
+import aws from "src\images\aws-svgrepo-com.svg"
 
 function Skills() {
   return (
@@ -45,7 +46,7 @@ function Skills() {
               <Skill name="Figma" url="https://www.svgrepo.com/show/354987/figma.svg"/> 
               <Skill name="Git" url="https://www.svgrepo.com/show/353782/git-icon.svg"/> 
               <Skill name="Docker" url="https://www.svgrepo.com/show/373553/docker.svg"/> 
-              <Skill name="AWS" url="https://www.svgrepo.com/show/448266/aws.svg"/> 
+              <Skill name="AWS" url={aws}/> 
             </div>
           </SwiperSlide>
         </Swiper>
